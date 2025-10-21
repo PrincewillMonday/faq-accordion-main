@@ -100,3 +100,22 @@ main .main-div {
     font-size: 0.9rem;
     line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+    .main-div .content-div {
+        width: 80%;
+        margin-top: -20%;
+    }
+}
+
+@media (max-width: 428px) {
+    .main-div .content-div {
+        width: 90%;
+        margin-top: -25%;
+        padding: 1.5em;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+}
